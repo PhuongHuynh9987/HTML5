@@ -1,0 +1,132 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #6642BA;
+  font-size: 20px;
+  font-family: Times, serif;
+  color: #f76011;
+}
+
+header[role="banner"] {
+  margin-top: 20px;
+  height: 135px;
+  border: solid 10px rgb(243, 240, 53);
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: #FB2B9C;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  margin: 5px 0 0 0;
+}
+
+nav {
+  margin: 0 auto;
+  width: 800px;
+}
+
+nav ul {
+  text-align: center;
+  font-family: Arial, Verdana;
+  font-size: 18px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  height: 20px;
+  width: 95px;
+  margin: 0 55px 0 5px;
+  white-space: nowrap;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #C6D3F1;
+  padding: 5px 20px;
+  background: #8F34A2;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  border: solid 4px rgb(243, 240, 53);
+  border-radius: 15px;
+}
+
+article {
+  position: relative;
+  top: 35px;
+  background-color: #931291;
+  border: double 10px rgb(243, 240, 53);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  height: 1000px;
+  width: 600px;
+}
+
+article h2 {
+  color: #ff4ba0;
+  font-size: 24px;
+  line-height: 14px;
+  margin: 20px 0 0 0;
+  padding: 10px 20px;
+}
+
+article p {
+  color: rgba(0, 0, 0, .5);
+  line-height: 24px;
+  padding: 2px 20px;
+}
+
+section {
+  background-color: #FEAD98;
+  border: double 4px rgb(243, 240, 53);
+  padding: 0px;
+  margin: 10px 10px;
+}
+
+section h3 {
+  color: #ff4ba0;
+  font-size: 30px;
+  line-height: 14px;
+  margin: 10px 0 0 0;
+  padding: 20px 5px 0 20px;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, .6);
+}
+
+section p {
+  color: #ffffff;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 22px;
+}
+
+aside {
+  position: relative;
+  top: -990px;
+  left: 640px;
+  background-color: #931291;
+  border: solid 8px rgb(243, 240, 53);
+  height: 1010px;
+  width: 302px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+}
+
+aside nav ul li {
+  display: block;
+  margin-top: 23px;
+}
+ 
+dl {
+  margin-left: 30px;
+  color: #ffffff;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd {
+  font-size: 15px;
+}
+
+footer {
+  
+}
